@@ -66,7 +66,7 @@
 
 ActableSite.com provides a platform for creating and managing interactive, data‑driven web experiences. It offers tools for building dynamic sites, integrating APIs, and customizing user interfaces without extensive coding. The service targets developers, marketers, and businesses seeking rapid deployment of feature‑rich web applications, with support for analytics, SEO, and third‑party integrations. ActableSite emphasizes scalability, security, and performance, delivering a robust solution for modern digital presence.
 
-**Areas:** Company · WebPlatform · LowCode · Analytics · SEO
+**Areas:** Company · Web Platform · Low-Code · Analytics · SEO
 
 ## actablesite-com on APIs.io
 
@@ -82,11 +82,17 @@ Everything profiled for actablesite-com is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [actablesite-com-mcp.yml](https://apis.io/servers/actablesite-com/actablesite-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Actablesite Com Agentic Access](https://apis.io/agentic-access/actablesite-com/actablesite-com-agentic-access/)
+- [actablesite-com Agentic Access](https://apis.io/agentic-access/actablesite-com/actablesite-com-agentic-access/)
 
 #### JSON Schema (3)
 
@@ -106,7 +112,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Actablesite Com Domain Security](https://apis.io/security/actablesite-com/actablesite-com-domain-security/)
+- [actablesite-com Domain Security](https://apis.io/security/actablesite-com/actablesite-com-domain-security/)
 
 ## Where to find this API
 
@@ -119,25 +125,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 34.1** — thin · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 29.0** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 45.1 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
+| Discoverability | 75.0 |
+| Contract quality | 48.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 6.4 |
-| Access clarity | 21.1 |
+| Access clarity | 29.8 |
 
-**Agent readiness 26.5** — agent-aware
+**Agent readiness 29.6** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | verified |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -145,7 +151,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -155,8 +161,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/actablesite-com/](https://apis.io/providers/actablesite-com/).
 
